@@ -6,30 +6,46 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 <TextView
+    android:id="@+id/messageTextview"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="MESSAGE"
-    android:textSize="30dp"
+    android:textSize="40dp"
     android:textAlignment="center"
     />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-android:layout_marginTop="150dp"
+        android:layout_marginTop="150dp"
         android:hint="Enter message here"
 
         />
+
     <Button
+        android:id="@+id/closebutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Send"
-        android:layout_marginTop="180dp"
         android:layout_centerInParent="true"
-        android:textSize="20dp"
-        android:id="@+id/sendbutton"
-        />
+        android:layout_marginTop="180dp"
+        android:onClick="sendMessage"
 
-        />
+        android:text="Close"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    />
 
 
 
