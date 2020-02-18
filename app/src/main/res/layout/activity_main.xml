@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-<TextView
-    android:id="@+id/messageTextview"
-    android:layout_width="match_parent"
 
-    android:layout_height="wrap_content"
-    android:text="MESSAGE"
-    android:textSize="40dp"
-    android:textAlignment="center"
-    />
+    <TextView
+        android:id="@+id/messageTextview"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="MESSAGE"
+        android:textAlignment="center"
+        android:textSize="40dp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -34,19 +34,22 @@
         android:text="Close"
         android:textSize="25dp" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
-
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/singers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
         android:text="TextView" />
 
+
+
+
+
     />
+
+
+
 
 
 

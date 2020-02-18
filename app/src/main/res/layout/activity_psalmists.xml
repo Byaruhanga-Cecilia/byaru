@@ -5,5 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".psalmists">
+    <Button
+        android:id="@+id/resume"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="start"
+        android:textSize="25dp"
+
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/kickstart"
+        android:layout_width="116dp"
+        android:layout_height="53dp"
+        android:text="psalm"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="510dp"
+        tools:ignore="MissingConstraints" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

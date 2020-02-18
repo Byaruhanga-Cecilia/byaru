@@ -2,6 +2,6 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="set" />
-    <item android:title="select" />
+    <item android:title="psalm" />
+    <item android:title="@string/singing" />
 </menu>
