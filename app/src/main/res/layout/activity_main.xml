@@ -6,15 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/messageTextview"
-        android:layout_width="match_parent"
-
-        android:layout_height="wrap_content"
-        android:text="MESSAGE"
-        android:textAlignment="center"
-        android:textSize="40dp" />
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,11 +18,24 @@
         android:id="@+id/closebutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
         android:layout_marginTop="180dp"
-        android:onClick="sendMessage"
 
+        android:onClick="sendMessage"
         android:text="Close"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="240dp"
+
+        android:onClick="sendMessage"
+        android:text="LIST"
         android:textSize="25dp" />
 
     <TextView
@@ -39,19 +43,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="406dp"
         android:text="TextView" />
 
+    <TextView
+        android:id="@+id/messageTextview"
+        android:layout_width="match_parent"
 
-
-
-
-    />
-
-
-
-
-
+        android:layout_height="wrap_content"
+        android:text="MESSAGE"
+        android:textAlignment="center"
+        android:textSize="40dp" />
 
 
 </RelativeLayout>

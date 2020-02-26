@@ -4,20 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".kibi"
-    android:background="@drawable/gera"
-    android:paddingBottom="@android:dimen/thumbnail_height"
-    android:paddingRight="@android:dimen/dialog_min_width_major">
-
-    <TextView
-        android:id="@+id/kibi"
+    tools:context=".listview">
+    <ListView
+        android:id="@+id/listViewExample"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Geralia"
-        android:textSize="50sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="29dp" />
+        android:divider="@android:color/holo_green_light"
+        android:dividerHeight="5dp"
+        android:clickable="true"
+        android:choiceMode="singleChoice"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
